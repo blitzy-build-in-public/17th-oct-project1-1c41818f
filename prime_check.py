@@ -12,5 +12,5 @@ for d in range(2, math.isqrt(n) + 1):
         prime = False
         break
 
-# Report the number judged and the verdict on one line.
+# The script's only output: the number judged and its verdict, on one line.
 print(f"{n} is prime" if prime else f"{n} is not prime")
